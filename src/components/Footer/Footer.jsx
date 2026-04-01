@@ -1,5 +1,7 @@
 import React from 'react';
-
+import instagram from '../../assets/instagram.png';
+import facebook from '../../assets/facebook.png';
+import twitter from '../../assets/twitter.png';
 const Footer = () => {
     return (
         <footer className="bg-[#0b1220] text-gray-300 pt-16 pb-8">
@@ -56,15 +58,17 @@ const Footer = () => {
         <div className="mt-10 flex items-center justify-between flex-col sm:flex-row gap-6">
           
           <div className="flex gap-4">
-            <div className="w-10 h-10 p-2 rounded-full bg-white flex items-center justify-center hover:bg-white/20 cursor-pointer">
-              <img src="/src/assets/instagram.png" alt="" />
-            </div>
-            <div className="w-10 h-10 p-2 rounded-full bg-white flex items-center justify-center hover:bg-white/20 cursor-pointer">
-              <img src="/src/assets/facebook.png" alt="" />
-            </div>
-            <div className="w-10 h-10 p-2 rounded-full bg-white flex items-center justify-center hover:bg-white/20 cursor-pointer">
-              <img src="/src/assets/twitter.png" alt="" />
-            </div>
+          <div className="w-10 h-10 p-2 rounded-full bg-white flex items-center justify-center hover:bg-white/20 cursor-pointer">
+            <img src={instagram} alt="instagram" />
+          </div>
+
+          <div className="w-10 h-10 p-2 rounded-full bg-white flex items-center justify-center hover:bg-white/20 cursor-pointer">
+            <img src={facebook} alt="facebook" />
+          </div>
+
+          <div className="w-10 h-10 p-2 rounded-full bg-white flex items-center justify-center hover:bg-white/20 cursor-pointer">
+            <img src={twitter} alt="twitter" />
+          </div>
           </div>
 
           {/* Bottom Links */}

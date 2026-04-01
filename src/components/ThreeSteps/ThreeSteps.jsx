@@ -1,5 +1,7 @@
 import React from 'react';
-
+import userIcon from '../../assets/user.png';
+import packageIcon from '../../assets/package.png';
+import rocketIcon from '../../assets/rocket.png';
 const ThreeSteps = () => {
     return (
 
@@ -25,7 +27,7 @@ const ThreeSteps = () => {
         <figure className="pt-2">
           <div className="rounded-full bg-primary/15 p-6">
             <img
-              src="/src/assets/user.png"
+              src={userIcon}
               alt="Create Account"
               className="w-20"
             />
@@ -49,7 +51,7 @@ const ThreeSteps = () => {
         <figure className="pt-2">
           <div className="rounded-full bg-primary/15 p-6">
             <img
-              src="/src/assets/package.png"
+              src={packageIcon}
               alt="Choose Products"
               className="w-20"
             />
@@ -73,7 +75,7 @@ const ThreeSteps = () => {
         <figure className="pt-2">
           <div className="rounded-full bg-primary/15 p-6">
             <img
-              src="/src/assets/rocket.png"
+              src={rocketIcon}
               alt="Create Account"
               className="w-20"
             />
