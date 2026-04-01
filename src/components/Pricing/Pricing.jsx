@@ -44,13 +44,13 @@ const Pricing = () => {
               </li>
             </ul>
 
-            <button className="mt-8 w-full rounded-full py-4 font-semibold text-white bg-gradient-to-r from-violet-600 to-fuchsia-600">
+            <button className="mt-8 w-full rounded-full py-4 font-semibold text-white bg-gradient-default">
               Get Started Free
             </button>
           </div>
 
-          <div className="relative rounded-2xl p-[1px] bg-gradient-to-b from-violet-600 to-fuchsia-600 shadow-sm">
-            <div className="relative h-full rounded-2xl bg-gradient-to-b from-violet-600 to-fuchsia-600 p-6 lg:p-8 flex flex-col text-white">
+          <div className="relative rounded-2xl shadow-sm">
+            <div className="relative h-full rounded-2xl p-6 lg:p-8 flex flex-col bg-gradient-default text-white">
               <div className="absolute -top-4 left-1/2 -translate-x-1/2">
                 <span className="bg-orange-100 text-orange-500 text-sm font-medium px-4 py-2 rounded-full">
                   Most Popular
@@ -138,7 +138,7 @@ const Pricing = () => {
               </li>
             </ul>
 
-            <button className="mt-8 w-full rounded-full py-4 font-semibold text-white bg-gradient-to-r from-violet-600 to-fuchsia-600">
+            <button className="mt-8 w-full rounded-full py-4 font-semibold text-white bg-gradient-default">
               Contact Sales
             </button>
           </div>

@@ -67,7 +67,7 @@ const PremiumTools = ({ productPromise, cart, setCart }) => {
             onClick={() => setActiveTab('products')}
             className={`tab rounded-full px-6 ${
               activeTab === 'products'
-                ? 'bg-gradient-to-r from-violet-600 to-fuchsia-600 text-white'
+                ? 'bg-gradient-default text-white'
                 : ''
             }`}
           >
@@ -78,7 +78,7 @@ const PremiumTools = ({ productPromise, cart, setCart }) => {
             onClick={() => setActiveTab('cart')}
             className={`tab rounded-full px-6 ${
               activeTab === 'cart'
-                ? 'bg-gradient-to-r from-violet-600 to-fuchsia-600 text-white'
+                ? 'bg-gradient-default text-white'
                 : ''
             }`}
           >
@@ -141,7 +141,7 @@ const PremiumTools = ({ productPromise, cart, setCart }) => {
 
               <button
                 onClick={handleCheckout}
-                className="btn w-full mt-6 rounded-full border-none text-white bg-gradient-to-r from-violet-600 to-fuchsia-600"
+                className="btn w-full mt-6 rounded-full border-none text-white bg-gradient-default"
               >
                 Proceed To Checkout
               </button>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Workflow = () => {
     return (
-            <section className="bg-gradient-to-r from-blue-600 via-violet-600 to-fuchsia-600 py-20 lg:py-28">
+            <section className="bg-gradient-default py-20 lg:py-28">
       <div className="max-w-4xl mx-auto px-4 text-center">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white">
           Ready To Transform Your Workflow?

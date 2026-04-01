@@ -54,7 +54,7 @@ const Product = ({ product, handleAddToCart, cart }) => {
             className={`btn w-full rounded-full border-none ${
               isAdded
                 ? 'bg-gray-300 text-gray-600 cursor-not-allowed'
-                : 'text-white bg-gradient-to-r from-violet-600 to-fuchsia-600'
+                : 'text-white bg-gradient-default'
             }`}
           >
             {isAdded ? 'Added to Cart' : 'Buy Now'}
