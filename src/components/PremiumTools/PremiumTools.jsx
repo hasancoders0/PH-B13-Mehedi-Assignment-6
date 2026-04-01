@@ -46,7 +46,6 @@ const PremiumTools = ({ productPromise, cart, setCart }) => {
 
     toast.success('Order placed successfully! 🎉');
     setCart([]);
-    setActiveTab('products');
   };
 
   const totalPrice = cart.reduce((total, item) => total + Number(item.price), 0);
@@ -114,8 +113,9 @@ const PremiumTools = ({ productPromise, cart, setCart }) => {
                     className="flex items-center justify-between bg-base-200 rounded-xl p-4"
                   >
                     <div className="flex items-center gap-4">
-                      <div className="w-12 h-12 rounded-full border border-gray-200 flex items-center justify-center text-xl bg-white">
-                        {item.icon}
+                      <div className="w-12 h-12 p-3 rounded-full border border-gray-200 flex items-center justify-center text-xl bg-white">
+                        <img src={item.icon} alt="" />
+                        
                       </div>
 
                       <div>

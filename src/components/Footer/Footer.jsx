@@ -56,14 +56,14 @@ const Footer = () => {
         <div className="mt-10 flex items-center justify-between flex-col sm:flex-row gap-6">
           
           <div className="flex gap-4">
-            <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 cursor-pointer">
-              <span>🌐</span>
+            <div className="w-10 h-10 p-2 rounded-full bg-white flex items-center justify-center hover:bg-white/20 cursor-pointer">
+              <img src="/src/assets/instagram.png" alt="" />
             </div>
-            <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 cursor-pointer">
-              <span>📘</span>
+            <div className="w-10 h-10 p-2 rounded-full bg-white flex items-center justify-center hover:bg-white/20 cursor-pointer">
+              <img src="/src/assets/facebook.png" alt="" />
             </div>
-            <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 cursor-pointer">
-              <span>✖</span>
+            <div className="w-10 h-10 p-2 rounded-full bg-white flex items-center justify-center hover:bg-white/20 cursor-pointer">
+              <img src="/src/assets/twitter.png" alt="" />
             </div>
           </div>
 

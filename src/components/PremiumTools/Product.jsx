@@ -14,8 +14,9 @@ const Product = ({ product, handleAddToCart, cart }) => {
     <div className="card bg-base-100 border border-gray-200 rounded-2xl shadow-sm w-full max-w-[350px] mx-auto">
       <div className="card-body p-5">
         <div className="flex items-start justify-between">
-          <div className="w-12 h-12 rounded-full border border-gray-200 flex items-center justify-center text-xl bg-base-100">
-            {icon}
+          <div className="w-15 h-15 rounded-full border border-gray-200 flex items-center justify-center text-xl bg-base-100 p-3">
+            <img src={icon} alt="" />
+            
           </div>
 
           <span className={`badge ${badgeStyle} rounded-full px-3 py-3 font-normal`}>

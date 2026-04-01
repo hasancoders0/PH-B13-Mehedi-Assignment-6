@@ -7,7 +7,7 @@
     "period": "monthly",
     "tag": "Best Seller",
     "tagType": "best-seller",
-    "icon": "📝",
+    "icon": "/src/assets/products/writin.png",
     "features": [
       "Unlimited AI generations",
       "50+ writing templates",
@@ -22,7 +22,7 @@
     "period": "one-time",
     "tag": "Popular",
     "tagType": "popular",
-    "icon": "🎨",
+    "icon": "/src/assets/products/design-tool.png",
     "features": [
       "2000+ templates",
       "Monthly updates",
@@ -37,7 +37,7 @@
     "period": "monthly",
     "tag": "New",
     "tagType": "new",
-    "icon": "📷",
+    "icon": "/src/assets/products/tripod-camera.png",
     "features": [
       "10M+ assets",
       "Commercial use",
@@ -52,7 +52,7 @@
     "period": "monthly",
     "tag": "Popular",
     "tagType": "popular",
-    "icon": "⚙️",
+    "icon": "/src/assets/products/operation.png",
     "features": [
       "50+ automations",
       "API access",
@@ -67,7 +67,7 @@
     "period": "one-time",
     "tag": "New",
     "tagType": "new",
-    "icon": "📄",
+    "icon": "/src/assets/products/portfolio.png",
     "features": [
       "100+ templates",
       "ATS optimization",
@@ -82,7 +82,7 @@
     "period": "monthly",
     "tag": "Best Seller",
     "tagType": "best-seller",
-    "icon": "📣",
+    "icon": "/src/assets/products/social-media.png",
     "features": [
       "5000+ assets",
       "Scheduler included",
@@ -97,7 +97,7 @@
     "period": "monthly",
     "tag": "Popular",
     "tagType": "popular",
-    "icon": "✉️",
+    "icon": "/src/assets/products/social-media-marketing.png",
     "features": [
       "Drag & drop builder",
       "Automation workflows",
@@ -112,7 +112,7 @@
     "period": "yearly",
     "tag": "New",
     "tagType": "new",
-    "icon": "🌐",
+    "icon": "/src/assets/products/globe.png",
     "features": [
       "100+ UI components",
       "SEO optimized",
@@ -127,7 +127,7 @@
     "period": "yearly",
     "tag": "Best Seller",
     "tagType": "best-seller",
-    "icon": "🎬",
+    "icon": "/src/assets/products/montage.png",
     "features": [
       "4K video support",
       "Templates included",
