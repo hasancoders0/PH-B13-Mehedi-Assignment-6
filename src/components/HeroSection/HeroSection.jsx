@@ -4,7 +4,7 @@ const HeroSection = () => {
     return (
         <>
             <div className='container m-auto px-5'>
-                <div className="hero min-h-screen">
+                <div className="hero min-h-[65vh]">
                     <div className="hero-content flex-col lg:flex-row-reverse">
                         <img src="./src/assets/banner.png"className="max-w-sm"/>
                         <div>
