@@ -2,7 +2,7 @@ import React from 'react';
 
 const Whyus = () => {
     return (
-        <div className='bg-gradient-to-r to-violet-600 from-indigo-600 py-12 my-5'>
+        <div className='bg-gradient-default py-12 my-5'>
             <div className='container w-8/12 mx-auto bg-grad'>
                 <div className="flex text-lg text-white">
                     <div className="stat place-items-center border-solid border-white/30 border-b-0">
